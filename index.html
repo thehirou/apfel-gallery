@@ -8,7 +8,13 @@
 <body>
   <div class="image-gallery" title="Click for full-res">
     <script>
-      for (var i = 1; i <= 120; i++) {
+      for (var i = 1; i <= 7; i++) {
+        var src = "media/apfel_" + i + ".gif";
+        document.write('<a href="' + src + '"><img src="' + src + '"></a>');
+      }
+    </script>
+    <script>
+      for (var i = 1; i <= 145; i++) {
         var src = "media/apfel_" + i + ".png";
         document.write('<a href="' + src + '"><img src="' + src + '"></a>');
       }
