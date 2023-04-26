@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="image-gallery" title="Click for full-res">
+    <script>
+      for (var i = 1; i <= 120; i++) {
+        var src = "media/apfel_" + i + ".png";
+        document.write('<a href="' + src + '"><img src="' + src + '"></a>');
+      }
+    </script>
+  </div>
+</body>
+</html>
